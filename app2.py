@@ -83,4 +83,4 @@ if st.button('Get Recommendations'):
 # Adding a footer with extra information
 st.markdown("---")
 st.markdown("**Developed by [Anchit Das](https://www.linkedin.com/in/itsanchitdas/)**")
-st.markdown("**[Github](https://github.com/your-repo/movie-recommendation-app)**")
+st.markdown("**[Github](https://github.com/an-admin)**")
