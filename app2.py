@@ -17,7 +17,7 @@ data['overview'] = data['overview'].fillna('')
 # Initialize the TF-IDF Vectorizer
 tfidf_vectorizer = TfidfVectorizer(stop_words='english')
 
-# Fit and transform the 'overview' column to create a TF-IDF matrix
+
 tfidf_matrix = tfidf_vectorizer.fit_transform(data['overview'])
 
 # Define a function to get movie recommendations
