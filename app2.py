@@ -8,7 +8,7 @@ import requests
 
 
 
-# Load the movie dataset
+
 data = pd.read_csv('data/movies.csv')
 
 # Fill any missing values in 'overview' column
