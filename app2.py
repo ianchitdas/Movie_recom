@@ -48,7 +48,7 @@ def get_external_movie_suggestions(query, api_key, top_n=5):
     
     return suggestions
 
-# Streamlit app
+
 st.set_page_config(page_title="Movie Recommendation", layout="wide", page_icon="🎥")
 
 st.title("🎬 Movie Recommendation System")
