@@ -11,7 +11,7 @@ import requests
 
 data = pd.read_csv('data/movies.csv')
 
-# Fill any missing values in 'overview' column
+
 data['overview'] = data['overview'].fillna('')
 
 # Initialize the TF-IDF Vectorizer
